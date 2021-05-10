@@ -12,9 +12,17 @@ body{
 }
 #header{
 	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
 	background-color:hsl(217, 28%, 15%);
 	height: auto;
 	padding: 2.5%;
+}
+h1, h2, h3, h4, h5, h6, .button{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+h1{
+	font-weight: 700;
 }
 a{
 	padding: 5px;
@@ -39,6 +47,14 @@ ul#menu2{
 li{
 	display: inline;
 	padding: 2.5%;
+}
+.menu{
+	width: 100%;
+	padding: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 #menu1{
 	float: right;
@@ -101,9 +117,10 @@ li{
 }
 #more2{
 	clear:both;
-	padding: 2.5%;
+	padding: 2.5% 2.5% 0 2.5%;
 	background-color: #181f2bff;
 	height: auto;
+	flex-wrap: wrap;
 }
 #prod{
 	padding: 2.5%;
@@ -113,6 +130,7 @@ li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .proddet{
 	float: left;
@@ -120,12 +138,13 @@ li{
 	margin: auto;
 	height: 100%;
 	text-align: left;
+	flex: 50%;
 }
 .boxtest{
 	clear: both;
 	width: 100%;
 	height: auto;
-	padding: 2.5%;
+	padding: 5% 2.5% 0 2.5%;
 	background: url("../images/bg-quotes.png") no-repeat 4.5% 15%;
 	display: flex;
 	justify-content: center;
@@ -134,10 +153,13 @@ li{
 }
 .testimonials{
 	background-color: hsl(219, 30%, 18%);
+	flex: 28%;
 	padding: 2.5%;
 	margin: 2.5%;
 	width: 31%;
 	clear: both;
+	text-align: left;
+	border-radius: 15px;
 }
 .signin{
 	border: none;
@@ -154,7 +176,7 @@ li{
 	padding: 2.5%;
 	width: 50%;
 	height: auto;
-	margin: auto;
+	margin: 0 auto;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
@@ -184,9 +206,17 @@ img{
 	padding: 150px 2.5% 2.5%;
 	width: 100%;
 }
+.fotlog{
+	float: left;
+	width: 100%;
+	padding: 2.5% 2.5% 0;
+}
+.fotlog img{
+	padding: 2.5%;
+}
 .info1{
 	clear: both;
-	padding: 2.5%;
+	padding: 0 2.5% 2.5%;
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -195,8 +225,16 @@ img{
 }
 .info{
 	clear: both;
-	padding: 0 2.5%;
-	height: 100%;
+	flex: 20%;
+	text-align: left;
+	padding: 2.5%;
+	max-height: 100%;
+}
+#box2.info{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
 }
 .social{
 	height: 32px;
@@ -218,11 +256,14 @@ img{
 	background-color: hsl(198, 60%, 50%);
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width : 480px) {
-	.details{
+@media only screen and (max-device-width: 375px){
+	.details, .testimonials, .proddet, .info{
 		flex: 100%;
 	}
 	.button{
 		max-width: 100%;
+	}
+	#news{
+		width: 75%;
 	}
 }
