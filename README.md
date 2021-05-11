@@ -23,7 +23,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+#### Desktop preview
 ![](./design/desktop-preview.png)
 
 
@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - Website - [L3chit](https://www.l3chit.pl)
-- Frontend Mentor - [@l3chit](https://www.frontendmentor.io/profile/l3chit)
+- Frontend Mentor - [@L3chit](https://www.frontendmentor.io/profile/l3chit)
