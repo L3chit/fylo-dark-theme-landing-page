@@ -1,41 +1,51 @@
-*{
+* {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-body{
-	margin:0 auto;
-	padding:0;
-	color:#fff;
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	background-color:hsl(218, 28%, 13%);
+	background-color: hsl(218, 28%, 13%);
 }
-#header{
+
+#header {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	background-color:hsl(217, 28%, 15%);
+	background-color: hsl(217, 28%, 15%);
 	height: auto;
 	padding: 2.5%;
 }
-h1, h2, h3, h4, h5, h6, .button{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.button {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 }
-h1{
+
+h1 {
 	font-weight: 700;
 }
-a{
+
+a {
 	padding: 5px;
 	color: #fff;
 	text-decoration: none;
 }
-a:hover{
+
+a:hover {
 	text-decoration: underline;
 }
-.link{
-	color:;
-}
-ul#menu2{
+
+ul#menu2 {
 	list-style-type: none;
 	text-align: right;
 	padding: 0;
@@ -44,11 +54,13 @@ ul#menu2{
 	width: 50%;
 	height: 100%;
 }
-li{
+
+li {
 	display: inline;
 	padding: 2.5%;
 }
-.menu{
+
+.menu {
 	width: 100%;
 	padding: 2.5%;
 	display: flex;
@@ -56,42 +68,49 @@ li{
 	justify-content: space-between;
 	align-items: center;
 }
-#menu1{
+
+#menu1 {
 	float: right;
 	width: 50%;
 	height: 100%;
 }
-#logo{
+
+#logo {
 	width: 50%;
 	float: left;
 }
-#main{
-	clear:both;
-	background-color:hsl(217, 28%, 15%);
+
+#main {
+	clear: both;
+	background-color: hsl(217, 28%, 15%);
 	text-align: center;
 	height: auto;
 }
-#first{
+
+#first {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	padding: 2.5%;
 	background: url("../images/bg-curvy-desktop.svg") no-repeat center bottom;
 	background-size: 100%;
 }
-.button{
+
+.button {
 	border: none;
-	color:#fff;
+	color: #fff;
 	background-color: hsl(198, 60%, 50%);
 	padding: 1%;
 	margin: 1%;
 	width: 250px;
 	height: 50px;
-	border-radius:50px;
+	border-radius: 50px;
 }
-.button:hover{
+
+.button:hover {
 	background-color: hsl(176, 68%, 64%);
 }
-#more1{
+
+#more1 {
 	width: 100%;
 	height: auto;
 	padding: 2.5%;
@@ -101,13 +120,15 @@ li{
 	justify-content: center;
 	align-items: center;
 }
-#more12{
+
+#more12 {
 	width: 75%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
-.details{
+
+.details {
 	flex: 50%;
 	width: 50%;
 	height: auto;
@@ -115,14 +136,16 @@ li{
 	padding: 2.5%;
 	text-align: center;
 }
-#more2{
-	clear:both;
+
+#more2 {
+	clear: both;
 	padding: 2.5% 2.5% 0 2.5%;
 	background-color: #181f2bff;
 	height: auto;
 	flex-wrap: wrap;
 }
-#prod{
+
+#prod {
 	padding: 2.5%;
 	float: left;
 	margin: 0 auto;
@@ -132,7 +155,8 @@ li{
 	align-items: center;
 	flex-wrap: wrap;
 }
-.proddet{
+
+.proddet {
 	float: left;
 	width: 50%;
 	margin: auto;
@@ -140,7 +164,14 @@ li{
 	text-align: left;
 	flex: 50%;
 }
-.boxtest{
+
+.photo {
+	display: block;
+	clear: both;
+	margin: auto;
+}
+
+.boxtest {
 	clear: both;
 	width: 100%;
 	height: auto;
@@ -151,7 +182,8 @@ li{
 	align-items: center;
 	flex-wrap: wrap;
 }
-.testimonials{
+
+.testimonials {
 	background-color: hsl(219, 30%, 18%);
 	flex: 28%;
 	padding: 2.5%;
@@ -161,17 +193,19 @@ li{
 	text-align: left;
 	border-radius: 15px;
 }
-.signin{
+
+.signin {
 	border: none;
-	color:#000;
+	color: #000;
 	padding: 1%;
 	margin: 1%;
 	min-width: 50%;
 	max-width: 100%;
 	height: 50px;
-	border-radius:50px;
+	border-radius: 50px;
 }
-#news{
+
+#news {
 	background-color: hsl(217, 28%, 15%);
 	padding: 2.5%;
 	width: 50%;
@@ -184,37 +218,45 @@ li{
 	z-index: auto;
 	top: 150px;
 }
-form{
+
+form {
 	max-width: 100%;
 	height: auto;
 	padding: 2.5%;
 }
-input[type]{
+
+input[type] {
 	max-width: 100%;
 }
-img{
+
+img {
 	max-width: 100%;
 	height: auto;
 }
-.prof{
+
+.prof {
 	border-radius: 100%;
 	width: 20px;
 }
-#footer{
+
+#footer {
 	height: auto;
 	background-color: hsl(216, 53%, 9%);
 	padding: 150px 2.5% 2.5%;
 	width: 100%;
 }
-.fotlog{
+
+.fotlog {
 	float: left;
 	width: 100%;
 	padding: 2.5% 2.5% 0;
 }
-.fotlog img{
+
+.fotlog img {
 	padding: 2.5%;
 }
-.info1{
+
+.info1 {
 	clear: both;
 	padding: 0 2.5% 2.5%;
 	max-width: 100%;
@@ -223,20 +265,23 @@ img{
 	justify-content: center;
 	align-items: center;
 }
-.info{
+
+.info {
 	clear: both;
 	flex: 20%;
 	text-align: left;
 	padding: 2.5%;
 	max-height: 100%;
 }
-#box2.info{
+
+#box2.info {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
 	align-items: center;
 }
-.social{
+
+.social {
 	height: 32px;
 	width: 32px;
 	padding: 5px;
@@ -244,26 +289,34 @@ img{
 	border: 1px solid #fff;
 	border-radius: 100%;
 }
-.soclin{
+
+.soclin {
 	border-radius: 100%;
 	padding: 0 !important;
 	width: auto;
 	height: 100%;
 	fill: white;
 }
-.social:hover{
+
+.social:hover {
 	border-color: hsl(198, 60%, 50%);
 	background-color: hsl(198, 60%, 50%);
 }
 
-@media only screen and (max-device-width: 375px){
-	.details, .testimonials, .proddet, .info{
+@media only screen and (max-device-width: 800px) {
+
+	.details,
+	.testimonials,
+	.proddet,
+	.info {
 		flex: 100%;
 	}
-	.button{
+
+	.button {
 		max-width: 100%;
 	}
-	#news{
+
+	#news {
 		width: 75%;
 	}
 }
